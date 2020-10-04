@@ -1,4 +1,5 @@
 // rafce - react arrow function component export
+// ml-auto means margin-left. so push to the right.
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
+// py-3 means vertical padding of 3.
 const Footer = () => {
   return (
     <footer>
