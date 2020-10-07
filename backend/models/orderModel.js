@@ -1,3 +1,5 @@
+import mongoose from "mongoose";
+
 const orderSchema = mongoose.Schema(
   {
     user: {
@@ -36,17 +38,17 @@ const orderSchema = mongoose.Schema(
       email_address: { type: String },
     },
     taxPrice: {
-      type: Nummber,
+      type: Number,
       required: true,
       default: 0.0,
     },
     shippingPrice: {
-      type: Nummber,
+      type: Number,
       required: true,
       default: 0.0,
     },
     totalPrice: {
-      type: Nummber,
+      type: Number,
       required: true,
       default: 0.0,
     },
