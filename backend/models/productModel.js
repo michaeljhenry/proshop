@@ -18,6 +18,10 @@ const productSchema = mongoose.Schema(
       required: true,
       ref: "User", // adds a relationship between product & user
     },
+    name: {
+      type: String,
+      required: true,
+    },
     image: {
       type: String,
       required: true,
