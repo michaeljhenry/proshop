@@ -65,7 +65,9 @@ const orderSchema = mongoose.Schema(
       required: true,
       default: false,
     },
-    deliveredAt: {},
+    deliveredAt: {
+      type: Date,
+    },
   },
   {
     timestamps: true, // creates 'createdAt' and 'updatedAt' field for us
