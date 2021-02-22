@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Row } from "react-bootstrap";
 
 const Rating = ({ value, text, color }) => {
   return (
@@ -64,7 +65,7 @@ const Rating = ({ value, text, color }) => {
           }
         ></i>
       </span>
-      <span>{text && text}</span>
+      <div>{text && text}</div>
     </div>
   );
 };
